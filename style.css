@@ -1,0 +1,33 @@
+body {
+    --main-col: rgb(151, 183, 53);
+    padding: 0;
+    margin: 0;
+}
+
+/*gorne menu - navigacja */
+
+nav {
+    background-color: var(--main-col);
+}
+
+nav ul{
+    list-style:none;
+    padding: 20px 10px;
+    margin: 0px;
+    
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+            }   
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+nav ul li a:hover{
+    background-color: rgb(221, 221, 221);
+    color: var(--main-col);
+    padding:3px 10px;
+}
