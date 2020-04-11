@@ -31,3 +31,51 @@ nav ul li a:hover{
     color: var(--main-col);
     padding:3px 10px;
 }
+
+/* baner */
+#banner {
+    width: 100%
+}
+
+/* 3 obrazki */
+
+#obrazki {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    background-color:#f4f4f4;
+}
+
+/* artykul */
+
+article {
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    background-color: rgb(94, 94, 94);
+    color:white;
+}
+
+article h2 {
+    color: var(--main-col);
+    margin-bottom: 7px;
+}
+
+article a {
+    color: var(--main-col);
+    text-decoration: none;
+}
+
+.kolumna {
+    padding: 30px;
+}
+
+#autor {
+    margin-top:80px;
+    background-image: url('assets/avatar.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100px;
+    padding-left: 110px;
+
+}
