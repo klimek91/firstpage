@@ -8,6 +8,9 @@ body {
 
 nav {
     background-color: var(--main-col);
+    position: sticky;
+    top: 0;
+    
 }
 
 nav ul{
@@ -15,15 +18,19 @@ nav ul{
     padding: 20px 10px;
     margin: 0px;
     
+    
 }
 nav ul li{
     display: inline;
     margin: 20px;
-            }   
+    
+}   
 nav ul li a {
+    font-size: large;
     color: white;
     text-decoration: none;
     vertical-align: middle;
+    
 }
 
 nav ul li a:hover{
@@ -77,5 +84,36 @@ article a {
     background-position: left center;
     background-size: 100px;
     padding-left: 110px;
+}
 
+/* footer */
+
+footer {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    background-color: var(--main-col);
+    color:white;
+    padding: 5px 100px 30px 100px;
+}
+
+footer div{
+    padding:20px;
+}
+
+footer i{
+    size: 40px;
+}
+footer p{
+    font-size: 8px;
+    margin: 0;
+}
+
+footer h4{
+    font-size: 17px;
+    margin: 10px 0 0 0;
+}
+
+footer h4 i {
+    font-size: 25px;
 }
